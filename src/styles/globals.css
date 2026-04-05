@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900;
+}
+
+/* Custom neumorphic utilities */
+.neumorphic-button {
+  @apply shadow-neumorphic active:shadow-neumorphic-inset;
+}
+
+.neumorphic-card {
+  @apply bg-white shadow-neumorphic rounded-2xl;
+}
+
+/* Typography */
+h1 {
+  @apply text-4xl md:text-5xl font-bold tracking-tight;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl font-bold tracking-tight;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl font-semibold tracking-tight;
+}
+
+/* Focus styles */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  @apply outline-none ring-2 ring-primary-500 ring-offset-2 rounded;
+}
