@@ -16,9 +16,9 @@ export default function Button({
   const baseStyles = 'font-medium transition-smooth rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2'
   
   const variants = {
-    primary: 'bg-primary-600 text-white hover:bg-primary-700 shadow-neumorphic',
-    secondary: 'bg-secondary-500 text-white hover:bg-secondary-600 shadow-neumorphic',
-    ghost: 'text-primary-600 hover:bg-primary-50',
+    primary: 'bg-sky-400 text-slate-950 hover:bg-sky-300 shadow-neumorphic',
+    secondary: 'bg-slate-100 text-slate-950 hover:bg-slate-200 shadow-neumorphic',
+    ghost: 'text-sky-300 hover:bg-slate-900/60',
   }
 
   const sizes = {

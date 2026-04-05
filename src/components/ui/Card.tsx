@@ -14,8 +14,8 @@ export default function Card({
   const baseStyles = 'rounded-2xl p-6 transition-smooth'
   
   const variants = {
-    default: 'bg-white shadow-neumorphic',
-    elevated: 'bg-white shadow-neumorphic-lg hover:shadow-neumorphic-lg',
+    default: 'bg-slate-950/80 border border-slate-800 shadow-neumorphic',
+    elevated: 'bg-slate-950/90 border border-slate-700 shadow-neumorphic-lg hover:shadow-neumorphic-lg',
   }
 
   return (
